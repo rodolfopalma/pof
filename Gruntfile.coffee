@@ -26,7 +26,7 @@ module.exports = (grunt) ->
 
 		nodemon:
 			dev:
-				script: 'private/main.js'
+				script: 'private/pof.js'
 
 	grunt.registerTask('default', [
 		'coffee:private',
